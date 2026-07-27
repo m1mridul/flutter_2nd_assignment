@@ -19,7 +19,7 @@ class ContactListScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
+        title: Text(
           'Contact List',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
@@ -42,7 +42,7 @@ class ContactListScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 12),
+            SizedBox(height: 12),
 
             // Number TextFormField
             TextFormField(
@@ -56,7 +56,7 @@ class ContactListScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 12),
+            SizedBox(height: 12),
 
             // Add Button
             SizedBox(
@@ -76,7 +76,7 @@ class ContactListScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 16),
+            SizedBox(height: 16),
 
             // Contact List
             Expanded(
